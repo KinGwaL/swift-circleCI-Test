@@ -1,5 +1,17 @@
 version: 2.1
 jobs:
+  prebuild:
+    steps:
+      - run:
+          name: Installing Danger JS
+          command: npm install -g danger
+      - run:
+          name: Compiling Danger
+          command: swift build
+      - run:
+          name: Running Danger Swift
+          command: swift run danger-swift ci
+
   build-and-test:
     macos:
       xcode: "10.2.0"
@@ -53,10 +65,30 @@ jobs:
       - store_artifacts:
           path: output/Game.ipa
 
+  swiftlint:
+    docker:
+      - image: dantoml/swiftlint:latest
+    steps:
+      - checkout
+      - run: swiftlint lint --reporter junit | tee result.xml
+      - store_artifacts:
+          path: result.xml
+      - store_test_results:
+          path: result.xml
+
+  danger:
+    docker:
+      - image: dantoml/danger:latest
+    steps:
+      - checkout
+      - run: danger
+
 workflows:
   version: 2.1
   build-test-adhoc:
     jobs:
+      - swiftlint
+      - danger
       - build-and-test
       - adhoc:
           filters:
