@@ -93,7 +93,7 @@ workflows:
       - adhoc:
           filters:
             branches:
-              only: development
+              only: develop
           requires:
             - build-and-test
       #- beta:
