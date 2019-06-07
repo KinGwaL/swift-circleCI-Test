@@ -1,6 +1,10 @@
 version: 2.1
 jobs:
   prebuild:
+    macos:
+      xcode: "10.2.0"
+    working_directory: /Users/distiller/project
+    shell: /bin/bash --login -o pipefail
     steps:
       - run:
           name: Installing Danger JS
