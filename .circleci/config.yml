@@ -60,8 +60,10 @@ jobs:
   danger:
     docker:
       - image: dantoml/danger:latest
+    shell: /bin/bash --login -o pipefail
     steps:
       - checkout
+      - run: bundle install
       - run:
           name: Run Danger
           command: bundle exec Danger
