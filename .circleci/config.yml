@@ -69,13 +69,13 @@ workflows:
   commit:
     jobs:
       # - danger
-      # - build-and-test
+      - build-and-test
       - adhoc:
           filters:
             branches:
               only: develop
-          # requires:
-          #   - build-and-test
+          requires:
+            - build-and-test
   nightly:
     triggers:
       - schedule:
