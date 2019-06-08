@@ -72,7 +72,7 @@ workflows:
   version: 2.1
   commit:
     jobs:
-       - build-and-test
+      - build-and-test
       - adhoc:
           filters:
             branches:
