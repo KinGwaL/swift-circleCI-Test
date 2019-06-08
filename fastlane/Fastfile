@@ -8,7 +8,7 @@ platform :ios do
   desc "Runs all the tests"
   lane :test do
     scan(scheme: "Game")
-    xcov(project: "Game.xcodeproj", scheme: "Game", output_directory: "xcov_output")
+    xcov(project: "Game.xcodeproj", scheme: "Game", output_directory: "output/xcov_output")
     #danger
     snapshot
   end
