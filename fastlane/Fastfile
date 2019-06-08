@@ -13,7 +13,7 @@ platform :ios do
 
   desc "Ad-hoc build"
   lane :adhoc do
-    match(type: "adhoc")
+    match(type: "adhoc", readonly: is_ci)
     gym(export_method: "ad-hoc")
   end
 
