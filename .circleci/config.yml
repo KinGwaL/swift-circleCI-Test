@@ -7,7 +7,6 @@ jobs:
     environment:
       FL_OUTPUT_DIR: output
       FASTLANE_LANE: test
-      GITHUB_API_TOKEN: c5:d3:2a:e7:c2:7e:bd:d2:7e:64:09:9c:72:1c:7e:95
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
@@ -73,14 +72,13 @@ workflows:
   version: 2.1
   commit:
     jobs:
-      #- danger
        - build-and-test
-      # - adhoc:
-      #     filters:
-      #       branches:
-      #         only: develop
-      #     requires:
-      #       - build-and-test
+      - adhoc:
+          filters:
+            branches:
+              only: develop
+          requires:
+            - build-and-test
   nightly:
     triggers:
       - schedule:

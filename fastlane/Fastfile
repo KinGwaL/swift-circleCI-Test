@@ -7,10 +7,9 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    danger(github_api_token: ENV["GITHUB_API_TOKEN"], verbose: true)
-    #scan(scheme: "Game")
-    #xcov(project: "Game.xcodeproj", scheme: "Game", output_directory: "output/xcov_output")
-    #danger
+    #danger(github_api_token: ENV["GITHUB_API_TOKEN"], verbose: true)
+    scan(scheme: "Game")
+    xcov(project: "Game.xcodeproj", scheme: "Game", output_directory: "output/xcov_output")
     snapshot
   end
 
