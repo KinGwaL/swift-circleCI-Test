@@ -63,8 +63,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Run Danger
-        command: bundle exec Danger
+          name: Run Danger
+          command: bundle exec Danger
 
 workflows:
   version: 2.1
