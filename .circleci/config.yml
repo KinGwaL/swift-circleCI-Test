@@ -62,30 +62,32 @@ jobs:
       - image: dantoml/danger:latest
     steps:
       - checkout
-      - run: danger
+      - run:
+        name: Run Danger
+        command: bundle exec Danger
 
 workflows:
   version: 2.1
   commit:
     jobs:
-      # - danger
-      - build-and-test
-      - adhoc:
-          filters:
-            branches:
-              only: develop
-          requires:
-            - build-and-test
-  nightly:
-    triggers:
-      - schedule:
-          cron: "0 0 * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - adhoc
+      - danger
+  #     - build-and-test
+  #     - adhoc:
+  #         filters:
+  #           branches:
+  #             only: develop
+  #         requires:
+  #           - build-and-test
+  # nightly:
+  #   triggers:
+  #     - schedule:
+  #         cron: "0 0 * * *"
+  #         filters:
+  #           branches:
+  #             only:
+  #               - master
+  #   jobs:
+  #     - adhoc
       #- swiftlint
       
       
