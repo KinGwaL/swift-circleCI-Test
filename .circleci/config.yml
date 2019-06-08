@@ -76,7 +76,6 @@ workflows:
   build-test-adhoc:
     jobs:
       #- swiftlint
-      - prebuild
       - danger
       - build-and-test
       - adhoc:
