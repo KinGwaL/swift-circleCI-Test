@@ -8,14 +8,16 @@ platform :ios do
   desc "Runs all the tests"
   lane :test do
     scan(scheme: "Game")
+    gcovr(html: true, html_details: true, output: "./code-coverage/report.html")
+    xcov(workspace: "Game.xcworkspaceY", scheme: "Game", output_directory: "xcov_output")
+    danger
     snapshot
   end
 
   desc "Ad-hoc build"
   lane :adhoc do
     match(type: "adhoc", readonly: is_ci)
-    gym(export_method: "ad-hoc",
-        sdk: 'iphoneos')
+    gym(export_method: "ad-hoc", sdk: 'iphoneos')
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
