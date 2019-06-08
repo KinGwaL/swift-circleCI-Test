@@ -62,10 +62,9 @@ jobs:
       - image: dantoml/danger:latest
     steps:
       - checkout
-      - run: 
-          name: run danger
-          command: danger
-          when: always
+      - run: ./assert_danger_running_on_pr.sh
+      - run: bundle install
+      - run: '[ ! -z $DANGER_GITHUB_API_TOKEN ] && danger || echo "Skipping Danger for External Contributor" && exit 1'
 
 
 workflows:
