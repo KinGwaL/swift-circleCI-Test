@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+Tests started: 2019-06-07 17:55:57 +0000
+--------------------------------------------------------------------------------
+2019-06-08 01:57:36.392527+0800 GameUITests-Runner[53802:7257686] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2019-06-08 01:57:36.451199+0800 GameUITests-Runner[53802:7257686] Running tests...
+2019-06-08 01:57:37.438283+0800 GameUITests-Runner[53802:7257686] [AXMediaCommon] Unable to look up screen scale
+2019-06-08 01:57:37.443098+0800 GameUITests-Runner[53802:7257686] [AXMediaCommon] Unexpected physical screen orientation
+2019-06-08 01:57:37.521688+0800 GameUITests-Runner[53802:7257686] [AXMediaCommon] Unable to look up screen scale
+2019-06-08 01:57:37.525637+0800 GameUITests-Runner[53802:7257686] [AXMediaCommon] Unable to look up screen scale
+2019-06-08 01:57:37.525754+0800 GameUITests-Runner[53802:7257686] [AXMediaCommon] Unexpected physical screen orientation
+2019-06-08 01:57:41.513554+0800 GameUITests-Runner[53802:7257686] Continuing to run tests in the background with task ID 1
+Test Suite 'Selected tests' started at 2019-06-08 01:57:42.384
+XCTestOutputBarrierTest Suite 'GameUITests.xctest' started at 2019-06-08 01:57:42.385
+XCTestOutputBarrierTest Suite 'GameUITests' started at 2019-06-08 01:57:42.386
+XCTestOutputBarrierTest Case '-[GameUITests.GameUITests testExample]' started.
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 01:57:42.388
+    t =     0.24s Set Up
+2019-06-08 01:57:42.673831+0800 GameUITests-Runner[53802:7257686] Couldn't detect/set language...
+2019-06-08 01:57:42.674148+0800 GameUITests-Runner[53802:7257686] Couldn't detect/set locale...
+2019-06-08 01:57:42.685760+0800 GameUITests-Runner[53802:7257686] Couldn't detect/set launch_arguments...
+    t =     0.30s     Open com.circleci.ios-game
+    t =     0.50s         Launch com.circleci.ios-game
+    t =     2.05s             Wait for accessibility to load
+2019-06-08 01:58:45.890075+0800 GameUITests-Runner[53802:7257719] Invalid connection: com.apple.coresymbolicationd
+Invalid connection: com.apple.coresymbolicationd
+XCTestOutputBarrier    t =    63.95s             Assertion Failure: GameUITests.swift:19: Application 'com.circleci.ios-game' has not loaded accessibility
+    t =    64.07s Tear Down
+Test Case '-[GameUITests.GameUITests testExample]' failed (64.075 seconds).
+XCTestOutputBarrierTest Suite 'GameUITests' failed at 2019-06-08 01:58:46.463.
+	 Executed 1 test, with 1 failure (0 unexpected) in 64.075 (64.077) seconds
+XCTestOutputBarrierTest Suite 'GameUITests.xctest' failed at 2019-06-08 01:58:46.464.
+	 Executed 1 test, with 1 failure (0 unexpected) in 64.075 (64.079) seconds
+XCTestOutputBarrierTest Suite 'Selected tests' failed at 2019-06-08 01:58:46.466.
+	 Executed 1 test, with 1 failure (0 unexpected) in 64.075 (64.081) seconds
+XCTestOutputBarrierXCTestOutputBarrier
+BP_APP_PROC_ENDED

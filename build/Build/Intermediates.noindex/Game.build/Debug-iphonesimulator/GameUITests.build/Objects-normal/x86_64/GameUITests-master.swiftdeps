@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "34c9b5c5bd3396ac7e0a24c87032013b"
+build_time: [1559929928, 526142000]
+inputs:
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/FiveBluepillarUITests.swift": [1559928174, 33683425]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/TwoBluepillarUITests.swift": [1559928134, 900508546]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/GameUITests.swift": [1559925803, 897837658]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/OneBluepillarUITests.swift": [1559928123, 950832780]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/FourBluepillarUITests.swift": [1559928162, 413033445]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/SnapshotHelper.swift": [1559926082, 867544617]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/SixBluepillarUITests.swift": [1559928185, 614740096]
+  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/GameUITests/ThreeBluepillarUITests.swift": [1559928147, 854088666]

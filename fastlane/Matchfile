@@ -1,4 +1,4 @@
-git_url("https://gitlab.com/smallfat01/appcert.git")
+git_url("https://github.com/KinGwaL/appcert.git")
 
 storage_mode("git")
 

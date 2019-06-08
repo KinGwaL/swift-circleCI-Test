@@ -17,6 +17,12 @@
 		49EC45581BF4D533000A8470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC45561BF4D533000A8470 /* LaunchScreen.storyboard */; };
 		49EC45631BF4D533000A8470 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC45621BF4D533000A8470 /* GameTests.swift */; };
 		49EC456E1BF4D533000A8470 /* GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC456D1BF4D533000A8470 /* GameUITests.swift */; };
+		EA448BCD22AAD4BC007C6146 /* OneBluepillarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448BCC22AAD4BC007C6146 /* OneBluepillarUITests.swift */; };
+		EA448BCF22AAD4C7007C6146 /* TwoBluepillarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448BCE22AAD4C7007C6146 /* TwoBluepillarUITests.swift */; };
+		EA448BD122AAD4D4007C6146 /* ThreeBluepillarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448BD022AAD4D4007C6146 /* ThreeBluepillarUITests.swift */; };
+		EA448BD322AAD4E2007C6146 /* FourBluepillarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448BD222AAD4E2007C6146 /* FourBluepillarUITests.swift */; };
+		EA448BD522AAD4EE007C6146 /* FiveBluepillarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448BD422AAD4EE007C6146 /* FiveBluepillarUITests.swift */; };
+		EA448BD722AAD4FA007C6146 /* SixBluepillarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448BD622AAD4FA007C6146 /* SixBluepillarUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		49EC45691BF4D533000A8470 /* GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EC456D1BF4D533000A8470 /* GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUITests.swift; sourceTree = "<group>"; };
 		49EC456F1BF4D533000A8470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA448BCC22AAD4BC007C6146 /* OneBluepillarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBluepillarUITests.swift; sourceTree = "<group>"; };
+		EA448BCE22AAD4C7007C6146 /* TwoBluepillarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoBluepillarUITests.swift; sourceTree = "<group>"; };
+		EA448BD022AAD4D4007C6146 /* ThreeBluepillarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBluepillarUITests.swift; sourceTree = "<group>"; };
+		EA448BD222AAD4E2007C6146 /* FourBluepillarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourBluepillarUITests.swift; sourceTree = "<group>"; };
+		EA448BD422AAD4EE007C6146 /* FiveBluepillarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveBluepillarUITests.swift; sourceTree = "<group>"; };
+		EA448BD622AAD4FA007C6146 /* SixBluepillarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixBluepillarUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,12 @@
 				02DE4A9B218705020058CC26 /* SnapshotHelper.swift */,
 				49EC456D1BF4D533000A8470 /* GameUITests.swift */,
 				49EC456F1BF4D533000A8470 /* Info.plist */,
+				EA448BCC22AAD4BC007C6146 /* OneBluepillarUITests.swift */,
+				EA448BCE22AAD4C7007C6146 /* TwoBluepillarUITests.swift */,
+				EA448BD022AAD4D4007C6146 /* ThreeBluepillarUITests.swift */,
+				EA448BD222AAD4E2007C6146 /* FourBluepillarUITests.swift */,
+				EA448BD422AAD4EE007C6146 /* FiveBluepillarUITests.swift */,
+				EA448BD622AAD4FA007C6146 /* SixBluepillarUITests.swift */,
 			);
 			path = GameUITests;
 			sourceTree = "<group>";
@@ -227,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -293,8 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA448BD522AAD4EE007C6146 /* FiveBluepillarUITests.swift in Sources */,
+				EA448BCF22AAD4C7007C6146 /* TwoBluepillarUITests.swift in Sources */,
 				49EC456E1BF4D533000A8470 /* GameUITests.swift in Sources */,
+				EA448BCD22AAD4BC007C6146 /* OneBluepillarUITests.swift in Sources */,
+				EA448BD322AAD4E2007C6146 /* FourBluepillarUITests.swift in Sources */,
 				02DE4A9C218705020058CC26 /* SnapshotHelper.swift in Sources */,
+				EA448BD722AAD4FA007C6146 /* SixBluepillarUITests.swift in Sources */,
+				EA448BD122AAD4D4007C6146 /* ThreeBluepillarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

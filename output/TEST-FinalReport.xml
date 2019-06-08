@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="All tests" tests="7" failures="0" errors="1" time="142.085000">
+    <testsuite tests="7" failures="0" errors="1" time="142.085000" timestamp="2019-06-08T01:57:42GMT+08:00" name="GameUITests.xctest">
+        <testsuite tests="1" failures="0" errors="1" time="64.075000" timestamp="2019-06-08T01:57:42GMT+08:00" name="GameUITests">
+            <testcase classname="GameUITests" name="testExample" time="64.075000">
+                <error type="Error" message="Application 'com.circleci.ios-game' has not loaded">
+ GameUITests.swift:19
+        </error>
+                <system-out>
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 01:57:42.388
+    t =     0.24s Set Up
+2019-06-08 01:57:42.673831+0800 GameUITests-Runner[53802:7257686] Couldn't detect/set language...
+2019-06-08 01:57:42.674148+0800 GameUITests-Runner[53802:7257686] Couldn't detect/set locale...
+2019-06-08 01:57:42.685760+0800 GameUITests-Runner[53802:7257686] Couldn't detect/set launch_arguments...
+    t =     0.30s     Open com.circleci.ios-game
+    t =     0.50s         Launch com.circleci.ios-game
+    t =     2.05s             Wait for accessibility to load
+2019-06-08 01:58:45.890075+0800 GameUITests-Runner[53802:7257719] Invalid connection: com.apple.coresymbolicationd
+Invalid connection: com.apple.coresymbolicationd
+XCTestOutputBarrier    t =    63.95s             Assertion Failure: GameUITests.swift:19: Application 'com.circleci.ios-game' has not loaded accessibility
+    t =    64.07s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite tests="1" failures="0" errors="0" time="9.350000" timestamp="2019-06-08T01:59:01GMT+08:00" name="FourBluepillarUITests">
+            <testcase classname="FourBluepillarUITests" name="testExample" time="9.350000">
+                <system-out>
+XCTestOutputBarrier    t =     0.01s Start Test at 2019-06-08 01:59:01.780
+    t =     0.30s Set Up
+    t =     0.38s     Open com.circleci.ios-game
+    t =     0.65s         Launch com.circleci.ios-game
+    t =     7.62s             Wait for com.circleci.ios-game to idle
+    t =     9.13s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite tests="1" failures="0" errors="0" time="14.473000" timestamp="2019-06-08T01:59:01GMT+08:00" name="FiveBluepillarUITests">
+            <testcase classname="FiveBluepillarUITests" name="testExample" time="14.473000">
+                <system-out>
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 01:59:01.687
+    t =     0.29s Set Up
+    t =     0.31s     Open com.circleci.ios-game
+    t =     0.69s         Launch com.circleci.ios-game
+    t =    13.22s             Wait for com.circleci.ios-game to idle
+    t =    14.26s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite tests="1" failures="0" errors="0" time="8.668000" timestamp="2019-06-08T01:59:08GMT+08:00" name="OneBluepillarUITests">
+            <testcase classname="OneBluepillarUITests" name="testExample" time="8.668000">
+                <system-out>
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 01:59:08.860
+    t =     0.28s Set Up
+    t =     0.30s     Open com.circleci.ios-game
+    t =     0.59s         Launch com.circleci.ios-game
+    t =     7.30s             Wait for com.circleci.ios-game to idle
+    t =     8.37s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite tests="1" failures="0" errors="0" time="21.200000" timestamp="2019-06-08T02:00:13GMT+08:00" name="SixBluepillarUITests">
+            <testcase classname="SixBluepillarUITests" name="testExample" time="21.200000">
+                <system-out>
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 02:00:13.134
+    t =     0.39s Set Up
+    t =     0.43s     Open com.circleci.ios-game
+    t =     0.78s         Launch com.circleci.ios-game
+    t =    19.91s             Wait for com.circleci.ios-game to idle
+    t =    20.99s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite tests="1" failures="0" errors="0" time="18.587000" timestamp="2019-06-08T02:00:29GMT+08:00" name="ThreeBluepillarUITests">
+            <testcase classname="ThreeBluepillarUITests" name="testExample" time="18.587000">
+                <system-out>
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 02:00:29.529
+    t =     0.24s Set Up
+    t =     0.27s     Open com.circleci.ios-game
+    t =     0.44s         Launch com.circleci.ios-game
+    t =    17.32s             Wait for com.circleci.ios-game to idle
+    t =    18.38s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite tests="1" failures="0" errors="0" time="5.732000" timestamp="2019-06-08T02:00:44GMT+08:00" name="TwoBluepillarUITests">
+            <testcase classname="TwoBluepillarUITests" name="testExample" time="5.732000">
+                <system-out>
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 02:00:44.516
+    t =     0.18s Set Up
+    t =     0.24s     Open com.circleci.ios-game
+    t =     0.52s         Launch com.circleci.ios-game
+    t =     4.49s             Wait for com.circleci.ios-game to idle
+    t =     5.53s Tear Down
+        </system-out>
+            </testcase>
+        </testsuite>
+    </testsuite>
+</testsuites>

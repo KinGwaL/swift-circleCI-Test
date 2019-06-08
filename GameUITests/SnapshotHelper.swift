@@ -237,7 +237,8 @@ private extension XCUIElementAttributes {
         if hasWhiteListedIdentifier { return false }
 
         let hasOldLoadingIndicatorSize = frame.size == CGSize(width: 10, height: 20)
-        let hasNewLoadingIndicatorSize = frame.size.width.isBetween(46, and: 47) && frame.size.height.isBetween(2, and: 3)
+        let hasNewLoadingIndicatorSize = frame.size.width.isBetween(46, and: 47) &&
+                                         frame.size.height.isBetween(2, and: 3)
 
         return hasOldLoadingIndicatorSize || hasNewLoadingIndicatorSize
     }

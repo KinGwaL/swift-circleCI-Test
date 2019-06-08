@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+Tests started: 2019-06-07 17:59:06 +0000
+--------------------------------------------------------------------------------
+2019-06-08 02:00:07.094673+0800 GameUITests-Runner[54630:7266591] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2019-06-08 02:00:07.160746+0800 GameUITests-Runner[54630:7266591] Running tests...
+2019-06-08 02:00:10.243365+0800 GameUITests-Runner[54630:7266591] [AXMediaCommon] Unable to look up screen scale
+2019-06-08 02:00:10.243517+0800 GameUITests-Runner[54630:7266591] [AXMediaCommon] Unexpected physical screen orientation
+2019-06-08 02:00:10.368123+0800 GameUITests-Runner[54630:7266591] [AXMediaCommon] Unable to look up screen scale
+2019-06-08 02:00:10.375329+0800 GameUITests-Runner[54630:7266591] [AXMediaCommon] Unable to look up screen scale
+2019-06-08 02:00:10.375438+0800 GameUITests-Runner[54630:7266591] [AXMediaCommon] Unexpected physical screen orientation
+2019-06-08 02:00:12.116512+0800 GameUITests-Runner[54630:7266591] Continuing to run tests in the background with task ID 1
+Test Suite 'Selected tests' started at 2019-06-08 02:00:13.127
+XCTestOutputBarrierTest Suite 'GameUITests.xctest' started at 2019-06-08 02:00:13.128
+XCTestOutputBarrierTest Suite 'SixBluepillarUITests' started at 2019-06-08 02:00:13.129
+XCTestOutputBarrierTest Case '-[GameUITests.SixBluepillarUITests testExample]' started.
+XCTestOutputBarrier    t =     0.00s Start Test at 2019-06-08 02:00:13.134
+    t =     0.39s Set Up
+    t =     0.43s     Open com.circleci.ios-game
+    t =     0.78s         Launch com.circleci.ios-game
+    t =    19.91s             Wait for com.circleci.ios-game to idle
+    t =    20.99s Tear Down
+Test Case '-[GameUITests.SixBluepillarUITests testExample]' passed (21.200 seconds).
+XCTestOutputBarrierTest Suite 'SixBluepillarUITests' passed at 2019-06-08 02:00:34.331.
+	 Executed 1 test, with 0 failures (0 unexpected) in 21.200 (21.202) seconds
+XCTestOutputBarrierTest Suite 'GameUITests.xctest' passed at 2019-06-08 02:00:34.332.
+	 Executed 1 test, with 0 failures (0 unexpected) in 21.200 (21.204) seconds
+XCTestOutputBarrierTest Suite 'Selected tests' passed at 2019-06-08 02:00:34.334.
+	 Executed 1 test, with 0 failures (0 unexpected) in 21.200 (21.207) seconds
+XCTestOutputBarrierXCTestOutputBarrier
+BP_APP_PROC_ENDED

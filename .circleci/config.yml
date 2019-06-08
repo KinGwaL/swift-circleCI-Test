@@ -91,7 +91,7 @@ workflows:
   version: 2.1
   build-test-adhoc:
     jobs:
-      - swiftlint
+      #- swiftlint
       - danger
       - build-and-test
       - adhoc:
