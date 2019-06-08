@@ -71,23 +71,23 @@ workflows:
   commit:
     jobs:
       - danger
-  #     - build-and-test
-  #     - adhoc:
-  #         filters:
-  #           branches:
-  #             only: develop
-  #         requires:
-  #           - build-and-test
-  # nightly:
-  #   triggers:
-  #     - schedule:
-  #         cron: "0 0 * * *"
-  #         filters:
-  #           branches:
-  #             only:
-  #               - master
-  #   jobs:
-  #     - adhoc
+      # - build-and-test
+      # - adhoc:
+      #     filters:
+      #       branches:
+      #         only: develop
+      #     requires:
+      #       - build-and-test
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - adhoc
       #- swiftlint
       
       
