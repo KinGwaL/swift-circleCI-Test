@@ -11,6 +11,7 @@ jobs:
     steps:
       - checkout
       - run: bundle install
+      - run: jazzy --clean --output docs/jazzy
       - run:
           name: Fastlane
           command: bundle exec fastlane $FASTLANE_LANE
@@ -73,7 +74,6 @@ workflows:
     jobs:
       # - danger
       # - build-and-test
-      - make documentation
       # - adhoc:
       #     filters:
       #       branches:
