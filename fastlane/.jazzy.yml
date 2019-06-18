@@ -1,0 +1,4 @@
+clean: true
+output: ../output/jazzy/docs
+theme: fullwidth
+min_acl: internal

@@ -11,8 +11,6 @@ jobs:
     steps:
       - checkout
       - run: bundle install
-      - run: bundle gem install jazzy
-      - run: jazzy --clean --output docs/jazzy
       - run:
           name: Fastlane
           command: bundle exec fastlane $FASTLANE_LANE
@@ -73,14 +71,14 @@ workflows:
   version: 2.1
   commit:
     jobs:
-      # - danger
+      - danger
       - build-and-test
-      # - adhoc:
-      #     filters:
-      #       branches:
-      #         only: develop
-      #     requires:
-      #       - build-and-test
+      - adhoc:
+          filters:
+            branches:
+              only: develop
+          requires:
+            - build-and-test
   nightly:
     triggers:
       - schedule:
