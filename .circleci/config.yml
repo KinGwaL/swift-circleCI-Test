@@ -11,7 +11,7 @@ jobs:
     steps:
       - checkout
       - run: bundle install
-      - run: gem install jazzy
+      - run: bundle gem install jazzy
       - run: jazzy --clean --output docs/jazzy
       - run:
           name: Fastlane
