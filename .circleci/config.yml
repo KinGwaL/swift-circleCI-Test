@@ -73,7 +73,7 @@ workflows:
   commit:
     jobs:
       # - danger
-      # - build-and-test
+      - build-and-test
       # - adhoc:
       #     filters:
       #       branches:
