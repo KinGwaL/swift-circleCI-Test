@@ -73,7 +73,6 @@ workflows:
     jobs:
       # - danger
       # - build-and-test
-      - gem install jazzy
       - make documentation
       # - adhoc:
       #     filters:
