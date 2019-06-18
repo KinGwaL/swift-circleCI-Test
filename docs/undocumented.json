@@ -1,0 +1,131 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 25,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 28,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 31,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 34,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift",
+      "line": 37,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameScene.swift",
+      "line": 11,
+      "symbol": "GameScene",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameScene.swift",
+      "line": 12,
+      "symbol": "GameScene.didMove(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameScene.swift",
+      "line": 24,
+      "symbol": "GameScene.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameScene.swift",
+      "line": 44,
+      "symbol": "GameScene.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift",
+      "line": 12,
+      "symbol": "GameViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift",
+      "line": 14,
+      "symbol": "GameViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift",
+      "line": 33,
+      "symbol": "GameViewController.shouldAutorotate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift",
+      "line": 37,
+      "symbol": "GameViewController.supportedInterfaceOrientations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift",
+      "line": 45,
+      "symbol": "GameViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift",
+      "line": 50,
+      "symbol": "GameViewController.prefersStatusBarHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test"
+}

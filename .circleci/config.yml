@@ -71,13 +71,16 @@ workflows:
   version: 2.1
   commit:
     jobs:
-      - build-and-test
-      - adhoc:
-          filters:
-            branches:
-              only: develop
-          requires:
-            - build-and-test
+      # - danger
+      # - build-and-test
+      - gem install jazzy
+      - make documentation
+      # - adhoc:
+      #     filters:
+      #       branches:
+      #         only: develop
+      #     requires:
+      #       - build-and-test
   nightly:
     triggers:
       - schedule:

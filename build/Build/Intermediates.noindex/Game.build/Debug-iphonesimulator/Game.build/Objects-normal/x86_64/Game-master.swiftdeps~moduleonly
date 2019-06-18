@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
-options: "24492784969c424622d86b8cdce9d72d"
-build_time: [1559929912, 303038000]
-inputs:
-  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameScene.swift": [1559928040, 87780758]
-  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/GameViewController.swift": [1555380446, 0]
-  "/Users/delotte/Library/Mobile Documents/com~apple~CloudDocs/Documents/workspace/GitHub/swift-circleCI-Test/Game/AppDelegate.swift": [1559928040, 96976181]
